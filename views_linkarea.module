@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * Implementation of hook_views_api().
+ */
+function views_linkarea_views_api() {
+  return array(
+    'api' => 3,
+    'path' => backdrop_get_path('module', 'views_linkarea'),
+  );
+}
+
+/**
+ * Implements hook_autoload_info().
+ */
+function views_linkarea_autoload_info() {
+  return array(
+    'views_handler_area_link' => 'views_handler_area_link.inc',
+  );
+}

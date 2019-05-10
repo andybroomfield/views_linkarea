@@ -1,0 +1,6 @@
+name = Views Link Area
+description = A Views 3 area plugin to allow links as headers and footers for views.
+package = Views
+backdrop = 1.x
+version = "1.x-1.x-dev"
+dependencies[] = views
